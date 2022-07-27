@@ -1,0 +1,51 @@
+* {
+    
+    font-family:cursive;
+  }
+  body{
+    margin-top: 100px; 
+    background-color: antiquewhite;
+  }
+   
+  .container {
+    padding:50px;
+    background-color:rgb(124, 181, 10);
+    overflow: auto;
+    height: auto;
+    width:max-content;
+    margin-left: 28%;
+    
+  }
+   
+  h1{
+     text-align: center;
+     margin: 5%;
+     font-size: 5rem;
+     color: rgb(41, 35, 41);
+     text-decoration: underline;
+  }
+   
+  ul {
+    text-align: left;
+    padding-left: 10%;
+    padding: 7%;
+    font-size: 2rem;
+    list-style: circle;
+  }
+   
+  li:hover{
+    color:red;
+    margin: 4%;
+    transition:ease-in-out;
+    transition-delay: 0.2s;
+    
+  }
+  input[type=button] {
+    margin-top: 20px;
+    margin-left: 35%;
+    border: solid rgb(3, 88, 16) 1px;
+    width: 100%;
+    border-radius: 50PX;
+    outline: none;
+    background-color: rgba(27, 176, 19, 0.325);
+  }
